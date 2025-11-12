@@ -131,10 +131,7 @@ const Dashboard = () => {
         <h2 className="text-lg font-semibold text-gray-700 mb-4">
           Spending Overview
         </h2>
-        {/* TODO: Insert chart here (Recharts / Chart.js) */}
-        <div className="h-48 flex items-center justify-center text-gray-400">
-          Chart Placeholder
-        </div>
+        
       </div>
     </div>
   );
