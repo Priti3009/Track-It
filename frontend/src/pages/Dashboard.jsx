@@ -126,13 +126,7 @@ const Dashboard = () => {
       {/* --- Recent Transactions --- */}
       <RecentTransactions transactions={transactions}/>
      
-      {/* --- Chart / Graph Section --- */}
-      <div className="bg-white shadow rounded-xl overflow-x-auto">
-        <h2 className="text-lg font-semibold text-gray-700 mb-4">
-          Spending Overview
-        </h2>
-        
-      </div>
+     
     </div>
   );
 };
